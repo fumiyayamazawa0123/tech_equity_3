@@ -8,6 +8,15 @@ Bloomberg API等で取得済みのローカル日次OHLCV（CSV/Parquet）を入
 pip install -r requirements.txt
 ```
 
+## 依存関係（requirements.txt）
+
+- pandas>=2.2
+- numpy>=2.0
+- pyarrow>=16.0
+- pyyaml>=6.0
+- tqdm>=4.66
+
+
 ## 実行
 
 ```bash
