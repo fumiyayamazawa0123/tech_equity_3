@@ -1,0 +1,19 @@
+universe_path: config/universe_topix500.csv
+prices_path: data/prices_daily.parquet
+benchmark_path: data/benchmark_daily.csv
+output_root: outputs
+
+signal:
+  risk_k: 1.0
+
+backtest:
+  train_start: "2016-01-01"
+  train_end: "2020-12-31"
+  test_start: "2021-01-01"
+  test_end: "2024-12-31"
+  n_positions: 50
+  buffer: 10
+  one_way_cost_bps: 20
+  stop_atr_mult: 2.0
+  target_atr_mult: 3.0
+  time_stop_days: 20
